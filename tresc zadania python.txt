@@ -1,0 +1,9 @@
+# Dane są katalogi K1, K2 oraz T (argumenty skryptu).
+# K1 i K2 są rozumiane jako katalogi „jednopoziomowe” (tzn. interesują nas tylko pliki bezpośrednio w tym katalogu, a nie głębiej),
+# zaś T jest rozumiane jako całe drzewo katalogowe (dowolnej głębokości). Należy:
+# 1. Utworzyć w K2 kopie plików regularnych z K1, do których my (wykonawca skryptu) mamy prawo wykonania. (3)
+# 2. W K1 przekształcić wszystkie linki symboliczne do katalogów tak, aby były zdefiniowane ścieżką bezwzględną. (3)
+# 3. W T należy znaleźć (wypisać nazwy) katalogi, które zostały utworzone dawniej niż 5 minut temu
+# i które mają co najwyżej 3 (bezpośrednie) podkatalogi. (4)
+
+
